@@ -2,6 +2,12 @@
 
 Welcome to the Weather API Application! This fun and intuitive web app lets you explore weather forecasts with ease using HTML, CSS, and JavaScript. Whether you want to check the weather for your current location or any city around the world, this app has got you covered!
 
+## 🛠️ Languages Used
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
 ## 🚀 Features
 
 ### 5-Day Weather Forecast for Your Location
@@ -18,7 +24,7 @@ Experience the magic of weather forecasting by checking out our live demo [here]
 
 Here’s a glimpse of what you’ll see:
 
-![Weather App Screenshot](<img width="947" alt="image" src="https://github.com/user-attachments/assets/a12256fd-1838-4f58-9868-3b27a7165694">)
+![Weather App Screenshot](![WhatsApp Image 2024-07-25 at 19 50 27_67b91ab1](https://github.com/user-attachments/assets/f9fc8af8-f2e7-4887-ad25-5c1ecbb4c08e))
 
 ## 🛠️ Installation
 
@@ -57,8 +63,8 @@ Enter a city name in the search bar and click "Get Weather" to see a 5-day forec
 ### Star the Repository
 Love what you see? Show your support by starring the project! ⭐
 
-#### Go to the Weather [API Repository](https://github.com/PrajwalaY26/Weather-API).
-#### Click the Star button at the top right. It helps spread the word!
+1. Go to the Weather [API Repository](https://github.com/PrajwalaY26/Weather-API).
+2. Click the Star button at the top right. It helps spread the word!
 
 ### Fork and Clone
 ```sh
