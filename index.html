@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="text/html"
+      href="media/365850-weather/png/031-rainbow.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/8c9bb54195.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quantico&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="weatherapp">
+        <div class="vintageshadow">
+            <div class="mycard">
+                <div class="content">
+                    <h1>
+                        <span class="the-city-icon">🌆</span>
+                        <span class="the-city">Mumbai</span>
+                    </h1>
+                    <div class="change-city">
+                        <form id="city-form" class="d-flex align-items-center">
+                            <input type="text" placeholder="Change city..." autocomplete="off" autofocus="on" class="change-city-input" />
+                            <input type="submit" value="Go!" class="change-city-button" />
+                            <button type="button" class="your-location">Your location</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="todayinfo">
+                        <span class="current-status">☀️</span>
+                        <br />
+                        <span id="current-date">July 24, 2024</span>.
+                    </p>
+                    <h2 class="currenttemperature">
+                        <strong><span class="current-value">20</span><span class="current-unit">ºC</span></strong>
+                        <span class="new-unit"> /ºF</span>
+                    </h2>
+                </div>
+                <div class="content">
+                    <div class="followingdaystable">
+                        <div class="followingdayscol">
+                            <p id="followingdays-second">🌧 Tomorrow</p>
+                            <p><strong><span class="current-value">18</span></strong> / <span class="current-value">22</span><span class="current-unit">ºC</span></p>
+                        </div>
+                        <div class="followingdayscol">
+                            <p id="followingdays-third">🌥 Saturday</p>
+                            <p><strong><span class="current-value">16</span></strong> / <span class="current-value">20</span><span class="current-unit">ºC</span></p>
+                        </div>
+                        <div class="followingdayscol">
+                            <p id="followingdays-fourth">☀️ Sunday</p>
+                            <p><strong><span class="current-value">22</span></strong> / <span class="current-value">25</span><span class="current-unit">ºC</span></p>
+                        </div>
+                        <div class="followingdayscol">
+                            <p id="followingdays-fifth">🌧 Monday</p>
+                            <p><strong><span class="current-value">19</span></strong> / <span class="current-value">23</span><span class="current-unit">ºC</span></p>
+                        </div>
+                        <div class="followingdayscol">
+                            <p>☀️ Tuesday</p>
+                            <p><strong><span class="current-value">21</span></strong> / <span class="current-value">26</span><span class="current-unit">ºC</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <strong>
+            Open source <a href="https://github.com/cashjuli/WeatherApp-by-Juli-Cash-for-SheCodes" target=”_blank”>code</a> by <a href="https://www.linkedin.com/in/prajwala-yadlapalli" target=”_blank”>Prajwala Yadlapalli <i class="fab fa-linkedin"></i></a>
+            </strong>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

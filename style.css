@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/263/original/Animated_Pink_Clouds_Background_Vanilla_Sky_Stock_Footage_Video_%28100__Royalty-free%29_1105005759___Shutterstock.jpeg?1721828749') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherapp {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 1px solid #f8d7da;
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/290/original/de42d997-8131-4674-b19f-5609cdc2f9ba.jpeg?1721839804');
+    background-size: cover;
+    position: relative;
+}
+
+.vintageshadow {
+    width: fit-content;
+    display: flex;
+    background-repeat: repeat;
+    padding: 2% 2% 0 2%;
+    margin: 5% auto;
+}
+
+.mycard {
+    padding: 0;
+    background-color: #ffe0f7;
+    width: 600px;
+    border: 1px solid #251f44;
+    margin-left: -2%;
+    margin-top: -2%;
+    padding-top: 10px;
+}
+
+.content {
+    margin: 0 2%;
+}
+
+h1, h2, .change-city-button, .your-location {
+    font-family: 'Poppins', sans-serif;
+    color: #d46a8c;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #e8aeb5;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #fe58b0;
+}
+
+strong {
+    color: #b34d60;
+}
+
+.new-unit {
+    border: 2px solid #251f44;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    background-color: #fd2297;
+    transition: background 100ms linear;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.new-unit:hover {
+    background-color: #f54291;
+    border-top: 3px solid #f54291;
+    border-left: 3px solid #f54291;
+}
+
+.change-city {
+    margin: 0.5rem auto;
+}
+
+#city-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-city-input {
+    border: 2px solid #251f44;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    padding: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+.change-city-input:focus {
+    outline-style: initial;
+}
+
+.change-city-button {
+    border: 2px solid #251f44;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    background-color: #ff8eca;
+    transition: background 100ms linear;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.change-city-button:hover {
+    background-color: hsl(334, 100%, 89%);
+    border-top: 3px solid #f54291;
+    border-left: 3px solid #f54291;
+}
+
+.your-location {
+    border: 2px solid #251f44;
+    border-top: 3px solid #f54291;
+    border-left: 3px solid #f54291;
+    background-color: #ffb7d6;
+    transition: background 100ms linear;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.your-location:hover {
+    background-color: #ffb7d6;
+    border: 2px solid #251f44;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.moredetails {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.moredetails li {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: background 0.3s ease;
+}
+
+.moredetails li:hover {
+    background-color: #fff0f0;
+}
+
+.followingdaystable {
+    border-right: 1px dashed #251f44;
+    background-color: #faeee7;
+    margin-bottom: 5%;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.followingdayscol {
+    border: 1px dashed #251f44;
+    border-right: none;
+    padding: 10px;
+    flex: 1 1 18%;
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.followingdayscol p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.followingdayscol img {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    max-width: 60px; /* Adjust size if needed */
+}
+
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #9f7479;
+    text-align: center;
+}
