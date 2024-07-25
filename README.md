@@ -47,10 +47,10 @@ Ready to set up your own instance? Follow these simple steps:
 ```sh
 git clone https://github.com/YOUR-USERNAME/Weather-API.git
 ```
-### 3. Switch to the Master Branch
+### 3. Switch to the Main Branch
 ```sh
 cd Weather-API
-git checkout master
+git checkout main
 ```
 ### 4. Open the Project
 Open the index.html file in your favorite web browser to start exploring! 🌐
