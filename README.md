@@ -23,7 +23,7 @@ Simply enter any city name to retrieve a detailed 5-day weather forecast. 🌆
 
 Experience the magic of weather forecasting by checking out our live demo [here](http://127.0.0.1:5500/index.html). See how it works in action!
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 Here’s a glimpse of what you’ll see:
 
@@ -59,7 +59,7 @@ Open the index.html file in your favorite web browser to start exploring! 🌐
 
 ### For Your Location
 
-- Click the **"Your Location"** button to automatically detect your current location and view a 5-day weather forecast. Just sit back and enjoy the forecast! 🌈
+- Click the **"Your Location"** button to automatically detect your current location and view a 5-day weather forecast. Just sit back and enjoy the forecast! 🌍
 
 ### For Any City
 
@@ -79,8 +79,8 @@ Love what you see? Show your support by starring the project! ⭐
 git clone https://github.com/YOUR-USERNAME/Weather-API.git
 cd Weather-API
 
-# Make sure you're on the master branch
-git checkout master
+# Make sure you're on the main branch
+git checkout main
 ```
 ## 📜 License
 This project is licensed under the MIT License. Check out the LICENSE file for more details.
