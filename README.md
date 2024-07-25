@@ -27,7 +27,7 @@ Experience the magic of weather forecasting by checking out our live demo [here]
 
 Here’s a glimpse of what you’ll see:
 
-![Weather App Screenshot](![WhatsApp Image 2024-07-25 at 19 50 27_67b91ab1](https://github.com/user-attachments/assets/f9fc8af8-f2e7-4887-ad25-5c1ecbb4c08e))
+!(![WhatsApp Image 2024-07-25 at 19 50 27_67b91ab1](https://github.com/user-attachments/assets/f9fc8af8-f2e7-4887-ad25-5c1ecbb4c08e))
 
 ## 🛠️ Installation
 
