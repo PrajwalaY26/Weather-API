@@ -56,11 +56,15 @@ git checkout main
 Open the index.html file in your favorite web browser to start exploring! 🌐
 
 ## 🔧 Usage
-### For Your Location: 
-The app automatically detects your location and shows a 5-day weather forecast. Just sit back and enjoy the forecast! 🌈
 
-### For Any City: 
-Enter a city name in the search bar and click "Get Weather" to see a 5-day forecast for that location. 🌆
+### For Your Location
+
+- Click the **"Your Location"** button to automatically detect your current location and view a 5-day weather forecast. Just sit back and enjoy the forecast! 🌈
+
+### For Any City
+
+- Enter the city name in the search bar.
+- Click the **"Go"** button to retrieve and view a 5-day weather forecast for the entered location. 🌆
 
 ## ⭐ Commands
 ### Star the Repository
