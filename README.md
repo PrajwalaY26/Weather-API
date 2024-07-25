@@ -1,12 +1,15 @@
-# 🌦️ Weather API Application 🌟
+# 🌦️ Weather API Application 🌞
 
 Welcome to the Weather API Application! This fun and intuitive web app lets you explore weather forecasts with ease using HTML, CSS, and JavaScript. Whether you want to check the weather for your current location or any city around the world, this app has got you covered!
 
 ## 🛠️ Languages Used
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+<p>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="margin-right: 15px;">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" style="margin-right: 15px;">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
 
 ## 🚀 Features
 
